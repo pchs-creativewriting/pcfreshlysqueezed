@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* CSS Document */
+/* lol css ha ha ha */
 * {transition: 0.4s;}
 body{
 	margin:0;
@@ -71,6 +71,7 @@ orange:#e26d2a;
 	text-decoration: underline;
 }
 .box1 p{margin-left:40px; font-size:18px;}
+#shop{margin-top:85px;}
 .shop{
 	background-color:#414141;
 	padding:15px 0;
@@ -85,7 +86,7 @@ orange:#e26d2a;
 footer{
 	color:white;
 	background-color:#60a151;
-	color:white;
+	margin-left:20vw;
 	font-family:'Source Sans Pro', sans-serif;
 	text-align:center;
 	padding:15px;
@@ -118,18 +119,43 @@ footer{
 		margin-left:40vw;
 		width:60vw;
 	}
+	footer{margin-left:40vw;}
+	.shop{margin:0 40px;}
+	.shop img{
+		height:200px;
+		margin:0 15px;
+		background-color:#414141;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.shop{margin:0 60px;}
+	.shop img{
+		height:200px;
+		margin:0 15px;
+		background-color:#414141;
+	}
 }
 
 @media screen and (max-width: 475px) {
+	.navfs-container{
+		margin:0;
+		z-index:1000;
+	}
 	.navfs li{
-		list-style: none;
-		display: inline-block;
-		transition:0.4s;
 		margin:-15px -2px;
 		padding:25px 10px;
-		color:white;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 100;
 		font-size:12px;
 	}
+	.left-column{
+		width:100vw;
+		position:relative;
+		overflow:auto;
+	}
+	.box1{
+		margin-left:0;
+		width:100vw;
+	}
+	footer{width:100vw; margin-left:0;}
+	#shop{margin-top:-50px;}
 }
