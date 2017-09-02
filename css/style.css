@@ -152,6 +152,7 @@ footer{
 		position:relative;
 		overflow:auto;
 	}
+	.left-column img{width:50vw;}
 	.box1{
 		margin-left:0;
 		width:100vw;
