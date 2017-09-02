@@ -150,7 +150,7 @@ footer{
 	.left-column{
 		width:100vw;
 		position:relative;
-		overflow:auto;
+		height:auto;
 	}
 	.left-column img{width:50vw;}
 	.box1{
