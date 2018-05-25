@@ -81,7 +81,7 @@ orange:#e26d2a;
 	margin:0 15px -4px 15px;
 	background-color:#414141;
 }
-#volV{cursor:not-allowed;}
+#volV{cursor:pointer;}
 
 footer{
 	color:white;
